@@ -1,4 +1,4 @@
-import { TBrandFilterRequest, TField, TId, TItem } from "../api/types"
+import { TField, TId, TItem } from "../api/types"
 
 
 export interface StateSchema {

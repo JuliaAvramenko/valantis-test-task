@@ -1,5 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import { Api } from '../../api/api'
+import React, { useEffect, useState } from 'react'
 import styles from './mainPage.module.css';
 import Card from '../../components/card/card';
 import { useAppDispatch } from '../../storeProvider/hooks/appDispatch';
@@ -7,8 +6,6 @@ import { getProductIdsAction } from '../../storeProvider/actionThunk/getProductI
 import { getFieldsSelector, getProductIdsSelector, getProductsSelector, statusLoadingSelector } from '../../storeProvider/selectors/selectors';
 import { useSelector } from 'react-redux';
 import { getProductsAction } from '../../storeProvider/actionThunk/getProducts';
-import { TItem } from '../../api/types';
-
 import { ReactComponent as Arrow } from "../../images/Arrow.svg"
 import Search from '../../components/search/search';
 import { getFieldsAction } from '../../storeProvider/actionThunk/getFields';

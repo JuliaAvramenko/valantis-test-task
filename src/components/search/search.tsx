@@ -1,5 +1,4 @@
 import { FC, useCallback, useEffect, useState } from 'react';
-import { TItem } from '../../api/types';
 import styles from './search.module.css';
 
 type TProps = {

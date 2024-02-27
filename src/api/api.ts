@@ -1,4 +1,4 @@
-import { TBrandFilterRequest, TField, TFieldsRequest, TGetItemsRequest, TId, TItem, TPagination, TResponse } from "./types";
+import { TField, TFieldsRequest, TGetItemsRequest, TId, TItem, TPagination, TResponse } from "./types";
 import { MD5 } from "crypto-js";
 
 const fetch = require('fetch-retry')(global.fetch)

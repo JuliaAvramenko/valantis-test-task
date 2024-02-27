@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit'
 import { ThunkConfig } from '../types'
 import { Api } from '../../api/api'
-import { TBrandFilterRequest, TId } from '../../api/types'
+import { TId } from '../../api/types'
 
 export const getProductsByBrandAction = createAsyncThunk<TId[], string, ThunkConfig>(
     "get-products-by-brand",

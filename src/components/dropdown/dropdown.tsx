@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { TField, TItem } from '../../api/types';
 import styles from './dropdown.module.css';
 import DropdownItem from '../dropdownItem/dropdownItem';
 
