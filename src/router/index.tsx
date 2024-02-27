@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: '/valantis-test-task',
+                path: '',
                 element: <MainPage />
             }
         ]

@@ -1,7 +1,6 @@
 {
   "name": "valantis-test-task",
   "version": "0.1.0",
-  "homepage": "https://juliaavramenko.github.io/valantis-test-task",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",

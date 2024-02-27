@@ -1,3 +1,3 @@
 # Valantis Test Task
 
-Github Pages: https://juliaavramenko.github.io/valantis-test-task/
+Github Pages: http://158.160.22.66/
